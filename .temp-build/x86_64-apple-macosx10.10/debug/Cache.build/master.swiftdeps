@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "993bb84aacf29fedaf67a9e076df267c"
+build_time: [1515518627, 806518000]
+inputs:
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/CacheProtocol.swift": [1515456211, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/MemoryCache.swift": [1515456211, 0]

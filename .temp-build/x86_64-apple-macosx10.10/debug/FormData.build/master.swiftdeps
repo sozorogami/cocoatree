@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "2e5bec6c7066318b61953dd4c1f06cb6"
+build_time: [1515518658, 34209000]
+inputs:
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/ContentDispositionParser.swift": [1515456214, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Field.swift": [1515456214, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Parser.swift": [1515456214, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Serializer.swift": [1515456214, 0]

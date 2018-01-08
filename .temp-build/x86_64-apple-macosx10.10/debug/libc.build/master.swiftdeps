@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "7300f30b1f3d21ec7d80dbc4662628d4"
+build_time: [1515518600, 536771000]
+inputs:
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/core.git-9210800844849382486/Sources/libc/libc.swift": [1515456212, 0]

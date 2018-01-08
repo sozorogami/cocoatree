@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "5b521eb7c55be4975c24cb0cd977b7c1"
+build_time: [1515518626, 604427000]
+inputs:
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Certificates.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ClientSocket.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Context.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Error.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Exports.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/InternetSocket.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Mode.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ReadableSocket.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/ServerSocket.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Socket.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Utilities.swift": [1515456217, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/WriteableSocket.swift": [1515456217, 0]

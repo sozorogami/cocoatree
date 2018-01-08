@@ -1,0 +1,61 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109419105-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109419105-2');
+  </script>
+
+  <script>
+  let about_text = `podfile.lock.fyi is a thing by
+
+T Y L E R   T A P E
+
+The vaporwave aesthetic is in homage to its origins as a Tumblr Hack Day project.
+
+Source code available at:
+github.com/sozorogami/cocoatree/
+`;
+
+  function setAbout() {
+    document.getElementById("textarea").value = about_text;
+  }
+  </script>
+</head>
+<body>
+
+<div>
+<h1>p o d f i l e . l o c k . f y i</h1>
+  <div id="input">
+    <form action="" method="post">
+        <textarea id="textarea" name="data">
+PODS:
+  - Vaporwave
+    - nostalgia
+    - angst
+  - nostalgia
+  - angst
+  - Windows98
+DEPENDENCIES:
+-------------
+
+Cocoapods dependencies cluttered? Tangled?
+J A N K E D - U P?
+Paste the contents of your Podfile.lock in here and start sorting them out!
+</textarea><br>
+        <button id="submit-button" type='submit'>s u b m i t</button>
+    </form>
+  </div>
+  <div id="footer">
+    <button id="about-button" onclick="setAbout()">About</button>
+  </div>
+</div>
+</body>
+
+</html>

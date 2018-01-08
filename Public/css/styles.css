@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma|VT323');
+
+body {
+  background: linear-gradient(#C575E8, #AD8CFF,	#FF6AD5, #C575E8 );
+}
+
+h1 {
+  color: white;
+  font: 30pt "Michroma", sans-serif;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font: 8pt "Michroma", sans-serif;
+}
+
+#input {
+  margin: auto;
+  width: 90%;
+  height: 75%;
+}
+
+#submit-button {
+  display: block;
+  margin: auto;
+  font: 10pt "Michroma", sans-serif;
+  background-color: aliceblue;
+}
+
+#about-button {
+  background-color: inherit;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  font: 8pt "Michroma", sans-serif;
+}
+
+#footer {
+  position: fixed;
+  margin-right: 10px;
+  bottom: 0;
+  left: 0;
+  width: 98%;
+  text-align: right;
+}
+
+textarea {
+  display: block;
+  margin: auto;
+  height: 100%;
+  width: 50%;
+  font: 20pt "VT323", monospace;
+  background-color: aliceblue;
+  color: #6d6d6d;
+  border-radius: 10px;
+  border-color: #6d6d6d;
+  padding: 15px;
+}
+
+.window {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 160px;
+  background-color: #EFEBDF;
+  border: solid 2px blue;
+  border-radius: 4px;
+}
+
+.window-header-container {
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#288eff+0,0059f3+14,006aff+86,0c44c2+100 */
+  background: #288eff; /* Old browsers */
+  background: -moz-linear-gradient(top, #288eff 0%, #0059f3 14%, #006aff 86%, #0c44c2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #288eff 0%,#0059f3 14%,#006aff 86%,#0c44c2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #288eff 0%,#0059f3 14%,#006aff 86%,#0c44c2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#288eff', endColorstr='#0c44c2',GradientType=0 ); /* IE6-9 */
+}
+
+.window-header-text {
+  margin-left: 10px;
+  padding: 5px;
+  float: left;
+  text-align: left;
+  background-color: inherit;
+  color: white;
+  font-size: 12px;
+}
+
+.window-content-container {
+  display: flex;
+  position: absolute;
+  top: 40px;
+  width: inherit;
+  height: 40%;
+  justify-content: stretch;
+  align-items: center;
+  /*border: 3px solid red;*/
+}
+
+.window-content-container > img {
+  object-fit: contain;
+  max-width: 50px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.window-text {
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.window-button-container {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  width: inherit;
+  height: 30px;
+  margin: auto;
+  font-family: Tahoma, sans-serif;
+  justify-content: space-around;
+}
+
+.window-button-container > a {
+  color: inherit;
+  display: inherit;
+  flex: 1;
+  text-decoration: none;
+}
+
+.window-button {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 2px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  background-color: #F4F3F3;
+  text-align: center;
+  width: 100%;
+}
+
+.window-button:hover {
+  cursor: pointer;
+}
+
+.x-button {
+  text-align: center;
+  background-color: red;
+  border: 1px solid white;
+  width: 20px;
+  height: 18px;
+  float: right;
+  margin-right: 4px;
+  margin-top: 4px;
+  padding-top: 1px;
+  color: white;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 16px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e51616+48,e51616+48,ea8781+87,e8c2c0+100 */
+  background: #e51616; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #e51616 48%, #e51616 48%, #ea8781 87%, #e8c2c0 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #e51616 48%,#e51616 48%,#ea8781 87%,#e8c2c0 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #e51616 48%,#e51616 48%,#ea8781 87%,#e8c2c0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e51616', endColorstr='#e8c2c0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#bust {
+  position: absolute;
+  bottom: -20px;
+  object-fit: contain;
+}

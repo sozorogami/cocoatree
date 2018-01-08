@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "8c0b6ea2c37df0dce0a680e6577e198d"
+build_time: [1515518631, 892059000]
+inputs:
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Bytes.swift": [1515456215, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Fuzzy.swift": [1515456215, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Parse.swift": [1515456215, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Serialize.swift": [1515456215, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON.swift": [1515456215, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONContext.swift": [1515456215, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONRepresentable.swift": [1515456215, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/json.git-9153249592855998091/Sources/JSON/Sequence+Convertible.swift": [1515456215, 0]

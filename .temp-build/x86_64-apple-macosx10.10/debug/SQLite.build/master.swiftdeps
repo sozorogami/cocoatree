@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "5e87e59eb4fb2fdc5b9b07ea354d1007"
+build_time: [1515518633, 133567000]
+inputs:
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/SQLite+Result.swift": [1515456216, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/SQLite+Statement.swift": [1515456216, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/SQLite.swift": [1515456216, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/sqlite.git--8232814251736334455/Sources/SQLite/StatusError.swift": [1515456216, 0]

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Run.build/master.swiftdeps"
+  },
+  "/Users/sozorogami/repos/cocoatree/Sources/Run/main.swift": {
+    "dependencies": "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Run.build/main.d",
+    "object": "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Run.build/main.swift.o",
+    "swiftmodule": "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Run.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Run.build/main.swiftdeps"
+  }
+}

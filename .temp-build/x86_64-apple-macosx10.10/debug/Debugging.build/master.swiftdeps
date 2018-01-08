@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "594784165d2e843a304393ddf8bbf41c"
+build_time: [1515518600, 544534000]
+inputs:
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/debugging.git-4365319567167379684/Sources/Debugging/Debuggable.swift": [1515456215, 0]

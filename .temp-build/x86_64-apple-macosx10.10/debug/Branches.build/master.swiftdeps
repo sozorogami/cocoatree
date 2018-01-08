@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "aa698a89542f37fef8f23680b3597af8"
+build_time: [1515518629, 21647000]
+inputs:
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/Branch+Paths.swift": [1515456214, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/Branch.swift": [1515456214, 0]
+  "/Users/sozorogami/repos/cocoatree/.build/checkouts/routing.git-5366657101075133678/Sources/Branches/SubBranchMap.swift": [1515456214, 0]

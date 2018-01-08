@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "94675cf411dbe187b5dcd99331a287ad"
+build_time: [1515523425, 564846000]
+inputs:
+  "/Users/sozorogami/repos/cocoatree/Sources/App/Controllers/PostController.swift": [1515455996, 0]
+  "/Users/sozorogami/repos/cocoatree/Sources/App/LockfileParser.swift": [1515523308, 0]
+  "/Users/sozorogami/repos/cocoatree/Sources/App/Models/Post.swift": [1515455996, 0]
+  "/Users/sozorogami/repos/cocoatree/Sources/App/Routes/Routes.swift": [1515468083, 0]
+  "/Users/sozorogami/repos/cocoatree/Sources/App/Setup/Config+Setup.swift": [1515455996, 0]
+  "/Users/sozorogami/repos/cocoatree/Sources/App/Setup/Droplet+Setup.swift": [1515455996, 0]

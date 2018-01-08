@@ -1,0 +1,155 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RouteTests"
+provides-nominal:
+- "8AppTests05RouteB0C"
+provides-member:
+- ["8AppTests05RouteB0C", ""]
+- ["8AppTests05RouteB0C", "allTests"]
+provides-dynamic-lookup:
+depends-top-level:
+- "RouteTests"
+- "TestCase"
+- "testHello"
+- "testInfo"
+depends-member:
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "testHello"]
+- ["s7CVarArgP", "testInfo"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "testHello"]
+- ["s28CustomDebugStringConvertibleP", "testInfo"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "testHello"]
+- ["s23CustomStringConvertibleP", "testInfo"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "testHello"]
+- ["s9EquatableP", "testInfo"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "testHello"]
+- ["s8HashableP", "testInfo"]
+- ["s8HashableP", ""]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "testHello"]
+- ["So8NSObjectC", "testInfo"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "testHello"]
+- ["So16NSObjectProtocolP", "testInfo"]
+- ["So16NSObjectProtocolP", ""]
+- ["8AppTests05RouteB0C", "deinit"]
+- ["8AppTests05RouteB0C", "init"]
+- ["8AppTests05RouteB0C", "testHello"]
+- ["8AppTests05RouteB0C", "testInfo"]
+- ["8AppTests8TestCaseC", "deinit"]
+- ["8AppTests8TestCaseC", "init"]
+- ["8AppTests8TestCaseC", "testHello"]
+- ["8AppTests8TestCaseC", "testInfo"]
+- ["8AppTests8TestCaseC", ""]
+- !private ["So11XCTActivityP", "init"]
+- ["So11XCTActivityP", "testHello"]
+- ["So11XCTActivityP", "testInfo"]
+- ["So11XCTActivityP", ""]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- ["So17XCTWaiterDelegateP", "testHello"]
+- ["So17XCTWaiterDelegateP", "testInfo"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "testHello"]
+- ["So6XCTestC", "testInfo"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "testHello"]
+- ["So10XCTestCaseC", "testInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "testHello"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "testInfo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "8AppTests05RouteB0C"
+- "8AppTests8TestCaseC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/URI.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/JSON.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/SMTP.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/HTTP.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/TLS.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/FormData.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Cache.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Console.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/SQLite.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Testing.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Routing.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Random.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Crypto.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/App.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/FluentProvider.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Vapor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Branches.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Cookies.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Configs.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Sessions.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Sockets.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/WebSockets.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Fluent.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/BCrypt.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Multipart.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/Transport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XCTest.swiftmodule"
+- "/Users/sozorogami/repos/cocoatree/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include/sqlite3.h"
+- "/Users/sozorogami/repos/cocoatree/.build/checkouts/engine.git-3311994267206676365/Sources/CHTTP/include/http_parser.h"
+- "/Users/sozorogami/repos/cocoatree/.build/checkouts/ctls.git-9210868160426949823/module.modulemap"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/sozorogami/repos/cocoatree/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c2d33393cc7b29e20d7b8da803608f85"
