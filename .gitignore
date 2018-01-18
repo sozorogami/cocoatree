@@ -69,3 +69,4 @@ fastlane/test_output
 
 # Vapor
 Config/secrets/*
+.temp-build

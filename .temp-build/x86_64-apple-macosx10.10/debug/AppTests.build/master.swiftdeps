@@ -1,8 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "d3b60447c804abdae2d3aaf631b9de33"
-build_time: [1515527138, 812565000]
-inputs:
-  "/Users/sozorogami/repos/cocoatree/Tests/AppTests/LockfileParserTests.swift": [1515527123, 0]
-  "/Users/sozorogami/repos/cocoatree/Tests/AppTests/PostControllerTests.swift": [1515455996, 0]
-  "/Users/sozorogami/repos/cocoatree/Tests/AppTests/RouteTests.swift": [1515522668, 0]
-  "/Users/sozorogami/repos/cocoatree/Tests/AppTests/Utilities.swift": [1515455996, 0]

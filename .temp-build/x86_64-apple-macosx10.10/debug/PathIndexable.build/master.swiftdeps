@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "5bd20ed541d4e2a7cc50273c06d681be"
-build_time: [1515518601, 619502000]
-inputs:
-  "/Users/sozorogami/repos/cocoatree/.build/checkouts/node.git-9175390252000121167/Sources/PathIndexable/PathIndexable+Subscripting.swift": [1515456214, 0]
-  "/Users/sozorogami/repos/cocoatree/.build/checkouts/node.git-9175390252000121167/Sources/PathIndexable/PathIndexable.swift": [1515456214, 0]
