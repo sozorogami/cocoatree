@@ -46,8 +46,6 @@
 		OBJ_1012 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Bits::Bits::Product" /* Bits.framework */; };
 		OBJ_1013 /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Node::PathIndexable::Product" /* PathIndexable.framework */; };
 		OBJ_1091 /* LockfileParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* LockfileParserTests.swift */; };
-		OBJ_1093 /* RouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* RouteTests.swift */; };
-		OBJ_1094 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Utilities.swift */; };
 		OBJ_1096 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "cocoatree::App::Product" /* App.framework */; };
 		OBJ_1097 /* LeafProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "LeafProvider::LeafProvider::Product" /* LeafProvider.framework */; };
 		OBJ_1098 /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Leaf::Leaf::Product" /* Leaf.framework */; };
@@ -4087,7 +4085,6 @@
 		OBJ_246 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		OBJ_248 /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
 		OBJ_249 /* Directories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directories.swift; sourceTree = "<group>"; };
-		OBJ_25 /* RouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTests.swift; sourceTree = "<group>"; };
 		OBJ_250 /* Resolve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolve.swift; sourceTree = "<group>"; };
 		OBJ_252 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		OBJ_253 /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
@@ -4095,7 +4092,6 @@
 		OBJ_255 /* Response+Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Response+Content.swift"; sourceTree = "<group>"; };
 		OBJ_257 /* DateMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateMiddleware.swift; sourceTree = "<group>"; };
 		OBJ_259 /* Droplet+Responder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Droplet+Responder.swift"; sourceTree = "<group>"; };
-		OBJ_26 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		OBJ_260 /* Droplet+Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Droplet+Run.swift"; sourceTree = "<group>"; };
 		OBJ_261 /* Droplet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Droplet.swift; sourceTree = "<group>"; };
 		OBJ_264 /* ClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientFactory.swift; sourceTree = "<group>"; };
@@ -5618,8 +5614,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_23 /* LockfileParserTests.swift */,
-				OBJ_25 /* RouteTests.swift */,
-				OBJ_26 /* Utilities.swift */,
 			);
 			name = AppTests;
 			path = Tests/AppTests;
@@ -8818,8 +8812,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_1091 /* LockfileParserTests.swift in Sources */,
-				OBJ_1093 /* RouteTests.swift in Sources */,
-				OBJ_1094 /* Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
