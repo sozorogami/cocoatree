@@ -8,27 +8,31 @@ Currently deployed at [podfile.lock.fyi](http://podfile.lock.fyi).
 
 ## Building
 
-After cloning the repo, you'll need to set a hash and cipher in `Config/secrets/crypto.json`. (This directory is ignored by version control.) During development, you can use Vapor's default settings:
+1. Make sure you have Vapor installed https://docs.vapor.codes/2.0/getting-started/install-on-macos/
 
-```
-{
-    "hash": {
-        "method": "sha256",
-        "encoding": "hex",
-        "key": "0000000000000000"
-    },
+2. Build the project using the Vapor CLI tool: `vapor build`
 
-    "cipher": {
-        "method": "aes256",
-        "encoding": "base64",
-        "key": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+3. Add a crypto file. You'll need to set a hash and cipher in `Config/secrets/crypto.json`. (This directory is ignored by version control.) During development, you can use Vapor's default settings:
+
+    ```
+    {
+        "hash": {
+            "method": "sha256",
+            "encoding": "hex",
+            "key": "0000000000000000"
+        },
+    
+        "cipher": {
+            "method": "aes256",
+            "encoding": "base64",
+            "key": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+        }
     }
-}
-```
+    ```
 
-Vapor will warn you that these values should not be used in production, and will provide instructions for generating your own.
+    Vapor will warn you that these values should not be used in production, and will provide instructions for generating your own.
 
-You should now be able to run the app, either by opening the Xcode project, or by installing Vapor's command line tools and executing `vapor run` in the project's root directory. By default, this will start a webserver at `localhost:1612`. You can change the port by editing `Config/server.json`.
+4. Run the project. You should now be able to run the app, either by opening the Xcode project, or by installing Vapor's command line tools and executing `vapor run` in the project's root directory. By default, this will start a webserver at `localhost:1612`. You can change the port by editing `Config/server.json`.
 
 ## Acknowledgements
 
